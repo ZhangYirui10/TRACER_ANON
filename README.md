@@ -64,7 +64,7 @@ The dataset consists of political claims annotated with:
 
 This repository is associated with a paper under review. Please refer to the anonymous link for citation purposes during the review process:
 
-https://anonymous.4open.science/ (fill in once generated)
+https://anonymous.4open.science/r/TRACER_ANON-65CD/README.md
 
 We will release the official version and code upon acceptance.
 
