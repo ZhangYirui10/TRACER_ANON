@@ -60,15 +60,24 @@ The dataset consists of political claims annotated with:
 
 **TRACER Verdict**: Half-True (due to omission of job quality context)
 
-## Citation Note
+## Citation
 
-This repository is associated with a paper under review. Please refer to the anonymous link for citation purposes during the review process:
+If you use this benchmark in your research, please cite our paper using the anonymous link:
 
-https://anonymous.4open.science/r/TRACER_ANON-65CD/README.md
+```
+@article{missing_parts_2024,
+  title={The Missing Parts: A Benchmark for Half-Truth Detection in Fact Verification},
+  author={Anonymous},
+  journal={Under Review},
+  year={2024},
+  url={https://anonymous.4open.science/r/TRACER_ANON-65CD/}
+}
+```
 
-We will release the official version and code upon acceptance.
+The paper PDF (`The_Missing_Parts.pdf`) is included in this repository for reference, but please use the anonymous link above for citation purposes during the review process.
 
 ## Repository Structure
 
-- `data/` — contains JSON files for train/dev/test splits
+- `dataset/` — contains JSON files for train/dev/test splits
+- `The_Missing_Parts.pdf` — our paper introducing the half-truth detection task
 - `README.md` — this file
