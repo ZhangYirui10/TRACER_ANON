@@ -1,14 +1,14 @@
 # Benchmark for Half-Truth Detection
 
-This repository contains the benchmark used in our work on **half-truth detection** in fact verification. We build on a concurrent submission **currently under double-blind review**, which introduces this new task. Due to anonymity requirements, we are unable to disclose author identity at this time.
+This repository contains the benchmark used in work on **half-truth detection** in fact verification. This builds on a concurrent submission **currently under double-blind review**, which introduces this new task. Due to anonymity requirements, author identity cannot be disclosed at this time.
 
-We believe that early access to the benchmark will benefit the community and support reproducibility.
+Early access to the benchmark is provided to benefit the community and support reproducibility.
 
 ## Task Description
 
 While traditional fact verification systems determine whether a claim is factually correct, they often fail to detect **omission-based manipulation** — cases where a claim is technically accurate but misleading due to the omission of critical context.
 
-To address this, we propose the task of **half-truth detection**, where the goal is to identify such omissions and assess their impact on the claim's implied meaning.
+To address this, the task of **half-truth detection** is proposed, where the goal is to identify such omissions and assess their impact on the claim's implied meaning.
 
 The dataset consists of political claims annotated with:
 - **Claim**
@@ -62,7 +62,7 @@ The dataset consists of political claims annotated with:
 
 ## Citation
 
-If you use this benchmark in your research, please cite our paper using the anonymous link:
+If you use this benchmark in your research, please cite the paper using the anonymous link:
 
 ```
 @article{missing_parts_2024,
@@ -79,5 +79,5 @@ The paper PDF (`The_Missing_Parts.pdf`) is included in this repository for refer
 ## Repository Structure
 
 - `dataset/` — contains JSON files for train/dev/test splits
-- `The_Missing_Parts.pdf` — our paper introducing the half-truth detection task
+- `The_Missing_Parts.pdf` — the paper introducing the half-truth detection task
 - `README.md` — this file
